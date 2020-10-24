@@ -1,0 +1,161 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+    "abi": [
+        {
+            "name": "mstart",
+            "args": [
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "issue",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "MineMakerWithdraw",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+
+        {
+            "name": "HawkerWithdraw",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+               {
+            "name": "DexSet",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "SetWeight",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "createtokenpair",
+            "args": [
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "register",
+            "args": [
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "onshelf",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "addliquidity",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [{
+                "token": "iost",
+                "val": "unlimited"
+            },
+            {
+                "token": "*",
+                "val": "unlimited"
+            }],
+            "description": ""
+        },
+        {
+            "name": "Swap_Buy",
+            "args": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+            {
+                "token": "iost",
+                "val": "unlimited"
+            },
+            {
+                "token": "*",
+                "val": "unlimited"
+            }
+            ],
+            "description": ""
+        },
+        {
+            "name": "Swap_Sell",
+            "args": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+            {
+                "token": "iost",
+                "val": "unlimited"
+            },
+            {
+                "token": "*",
+                "val": "unlimited"
+            }
+            ],
+            "description": ""
+        },
+        {
+            "name": "opbanlist",
+            "args": [
+                "string",
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "can_update",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        }
+        
+    ]
+}
