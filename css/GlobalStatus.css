@@ -1,0 +1,22 @@
+.global_status{
+
+    margin-top: 0.4rem;
+    display: inline-flex;
+    width: 60%;
+    height: 1.4rem;
+    border-radius: 2rem;
+    text-align: center ;
+        
+    border:solid;
+    border-color: #009966;
+    transition: 0.3s;
+    font-size: 0.7rem;
+    border-width: 0.05rem;
+}
+
+.global_account{
+
+
+    border-radius: 2rem;
+    margin: auto;
+}

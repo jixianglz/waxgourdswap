@@ -1,0 +1,75 @@
+
+.gocard{
+    padding: 0.2rem ;
+    margin-top: 0.7rem;
+    display: inline-flex;
+    width: 90%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-align: center ;
+    box-shadow:0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11),0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11);
+    background-image: linear-gradient(135deg, #009966 0%, #FFFF00 100%);
+    transition: 0.3s;
+    
+}
+
+.gocard:hover {
+    width: 92%;
+    height: 5.1rem;
+    box-shadow: 0 1rem 1rem 0 rgba(0,0,0,0.2);
+}
+
+.gocard-l{
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin:auto;
+    color:rgb(51, 70, 51);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4rem;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+.gocard-noeable{
+    padding: 0.2rem ;
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 90%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-align: center ;
+    box-shadow: 0 0.2rem 1rem 0 rgba(0,0,0,0.1);    
+    background-image: linear-gradient(135deg, #666666 0%, #CCCCCC 100%);
+    transition: 0.3s;
+}
+
+.gocard-l2{
+
+    
+    font-size: 0.45rem;
+    padding-top: 0.4rem;
+    font-weight:normal;
+    color: black;
+}
+
+
+
+.gocard-r{
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-inline-end: 1rem;
+    color:rgb(51, 70, 51);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+
+}
+
+
+a:link{color:#FFFFFF;}      /* 未访问链接*/
+a:visited {color:#FFFFFF;}  /* 已访问链接 */
+a:hover {color:#33CC33;}  /* 鼠标移动到链接上 */
+a:active {color:#FFFFFF;}
+
+

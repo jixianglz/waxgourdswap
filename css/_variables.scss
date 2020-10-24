@@ -1,0 +1,154 @@
+// Use it on other .scss file: @import 'variables';
+
+// Common Variable--------------------------------------------------
+
+// Common Colors --------------------------------------------------
+$primary: #6cf;
+$secondary: #7268e6;
+$lightGray: #f5f5f5;
+
+$green: #00d882;
+$yellow: #fdd600;
+$red: #ff5003;
+
+// Colors B&W--------------------------------------------------
+$b: black;
+$w: white;
+
+$b09: rgba($b, 0.9);
+$b08: rgba($b, 0.8);
+$b07: rgba($b, 0.7);
+$b06: rgba($b, 0.6);
+$b05: rgba($b, 0.5);
+$b04: rgba($b, 0.4);
+$b03: rgba($b, 0.3);
+$b02: rgba($b, 0.2);
+$b015: rgba($b, 0.15);
+$b01: rgba($b, 0.1);
+$b0075: rgba($b, 0.075);
+$b005: rgba($b, 0.05);
+$b0025: rgba($b, 0.025);
+$b001: rgba($b, 0.01);
+$b0: rgba($b, 0);
+
+$w09: rgba($w, 0.9);
+$w08: rgba($w, 0.8);
+$w07: rgba($w, 0.7);
+$w06: rgba($w, 0.6);
+$w05: rgba($w, 0.5);
+$w04: rgba($w, 0.4);
+$w03: rgba($w, 0.3);
+$w02: rgba($w, 0.2);
+$w015: rgba($w, 0.15);
+$w01: rgba($w, 0.1);
+$w0075: rgba($w, 0.075);
+$w005: rgba($w, 0.05);
+$w0025: rgba($w, 0.025);
+$w001: rgba($w, 0.01);
+$w0: rgba($w, 0);
+
+// Text Color --------------------------------------------------
+$c1: rgba($b, 1);
+$c2: rgba($b, 0.75);
+$c3: rgba($b, 0.5);
+$c4: rgba($b, 0.25);
+
+// Border Color --------------------------------------------------
+$bc1: rgba($b, 0.05);
+$bc2: rgba($b, 0.1);
+$bc3: rgba($b, 0.25);
+$bc4: rgba($b, 0.5);
+
+// Border Radius --------------------------------------------------
+$bs1: 0 1px 4px 0 rgba($b, 0.08);
+$bs2: 0 2px 8px 0 rgba($b, 0.1);
+$bs3: 0 4px 16px 0 rgba($b, 0.12);
+$bs4: 0 16px 64px 0 rgba($b, 0.14);
+
+// Media Queries --------------------------------------------------
+$screenWidth: 800px;
+$bigScreenWidth: 2048px;
+
+@mixin bigScreen {
+  @media screen and (min-width: $bigScreenWidth) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $screenWidth) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $screenWidth - 1) {
+    @content;
+  }
+}
+
+// Type --------------------------------------------------
+$base: 1rem;
+$ratio: 1.15;
+$mobileRatio: 1.1;
+$bold: bold;
+$light: light;
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  } @else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+@mixin font($scale: 0, $weight: normal) {
+  font-size: $base * pow($ratio, $scale);
+
+  @include mobile {
+    font-size: $base * pow($mobileRatio, $scale);
+  }
+
+  @if $weight==b {
+    font-weight: $bold;
+  } @else if $weight==l {
+    font-weight: $light;
+  } @else {
+    font-weight: $weight;
+  }
+}
+
+// Gap --------------------------------------------------
+@mixin gap($direction, $gap) {
+  @if $direction==h {
+    > *:not(:last-child) {
+      margin-right: $gap;
+    }
+  }
+
+  @if $direction==v {
+    > *:not(:last-child) {
+      margin-bottom: $gap;
+    }
+  }
+}
+
+// Grid --------------------------------------------------
+@mixin grid($column, $gap) {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -$gap / 2;
+
+  > * {
+    margin: $gap / 2;
+    flex: 0 0 calc(#{100 / $column}% - #{$gap});
+  }
+}

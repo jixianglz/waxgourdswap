@@ -1,0 +1,279 @@
+.tokensym{
+    width: 1.4rem;
+    height: 1.4rem;  
+    display: inline-block;   
+}
+.tokensym2{
+    display: inline-block;  
+    width: 1.2rem;
+    height: 1.2rem; 
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important; 
+    }
+    .tokensym{
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;  
+           
+    }
+    .tokensym2{
+        display: inline-block;  
+        width: 1rem;
+        height: 1rem; 
+    }
+    
+}
+
+.settingnavi{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    padding: 0.2rem ;
+    padding-top: 0.8rem;
+    height: auto;
+    border-radius:0rem;
+    border: solid;
+    border-color:rgba(21, 24, 19, 0.11);
+    border-width: 0.02rem;
+    border-bottom: unset;
+    border-top: unset;
+    
+}
+
+
+
+
+
+.minesymwg{
+    display: inline-block;  
+    width: 0.9rem;
+    height: 0.9rem; 
+  
+}
+
+.tokenpair
+{
+
+    padding: 0.2rem ;
+    display: block;
+    width: 100%; 
+    margin-top: 0.2rem;
+    height: auto;
+    border-radius:0.5rem 0.5rem 0rem 0rem;
+    border: solid;
+    border-color:rgba(21, 24, 19, 0.11);
+    border-width: 0.02rem;
+    border-bottom: unset;
+}
+
+
+.iconsettingstyle{
+    width: 1.3rem;
+    height: 1.3rem;  
+    display: inline-flex;    
+}
+
+.pairregist{
+
+    display: block;
+}
+
+.card {
+    display: block;   
+    transition: 0.3s;
+    width: 100%;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    margin: auto;
+   
+}
+
+.container {
+    
+    font-size: 0.43rem;
+    text-align: left;
+    margin: 0.05rem auto;
+}
+
+.dextradeinfo {
+      
+    display: block;
+    width: 97%; 
+    margin: 0.3rem auto;
+ 
+    height: auto;
+    padding: 0.5rem;
+    text-align: left;
+    color: #FFFFCC;
+    border-radius: 0.6rem;
+    font-size: 0.55rem;
+    overflow: hidden;   
+    margin: auto;
+    box-shadow: 0 0.1rem 0.1rem 0 rgba(0,0,0,0.5);
+    background: url(../../images/token/dexrank.svg) no-repeat right bottom ;
+    
+    background-color: #669999;
+    background-size: 2.3rem;
+
+}
+
+.dexmakersep{
+    height: 0.5rem;  
+  
+}
+
+
+.MakerInfo {
+    
+    display: block;
+    width: 97%; 
+    margin: 0.3rem auto;
+    height: auto;
+    padding: 0.4rem;
+    text-align: left;
+    color: #FFFFCC;
+    border-radius: 0.6rem;
+    font-size: 0.6rem;
+    overflow: hidden;   
+    margin: auto;
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0,0,0,0.5);
+
+    background: url(../../images/token/coin.svg) no-repeat right bottom ;
+    background-color: #669999;
+    background-size: 2.3rem;
+}
+
+
+
+.pairstatus-span{
+    color:#f0cc56;  
+    font-weight: bold;
+}
+
+
+
+.Tokensetting{
+   
+    padding: 0.2rem ;
+    display: block;
+    font-size: 0.6rem;
+    width: 100%; 
+    margin-top: 0;
+    height: auto;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border:solid;
+    border-top: unset;
+    border-width: thin;
+    border-color:rgba(21, 24, 19, 0.11);
+    overflow:hidden;
+    opacity: 1;
+    animation: 0.2s test linear normal;
+}
+
+@keyframes test {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;} 
+}
+
+
+.settingbutton {
+
+    display: inline-block;
+    padding: 0rem 0.2rem;
+    height: 1.4rem;
+    font-size: 0.6rem;
+    text-align: center;
+    margin:0.2rem auto;
+    border-radius: .125rem;
+    background-color:#669933;
+    color: #FFFFCC;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0;
+    box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.5);
+  }
+
+.settinginput{
+      
+        border: 0.02rem solid  #669933;
+        border-radius: 0.1rem;
+        padding: 0.2rem;
+        width: 90%;
+        height: 1.3rem;
+        font-size: 0.6rem;
+        text-align: center;
+}
+
+.setting_addwith{   
+display: inline-flex;
+width: 100%;
+justify-content:center;
+align-items:center;
+}
+.setting_input{   
+display: inline-flex;
+width: 100%;
+justify-content:center;
+align-items:center;
+margin-top: 0.3rem;
+}
+
+.setting_input2{   
+ width: 80%;
+ justify-content:center;
+ align-items:center;
+
+ font-size: 0.6rem;
+}
+
+.settingbutton_add {
+
+    height: 1.5rem;
+    width: 40%;
+    font-size: 0.6rem;
+    text-align: center;
+    margin:0.2rem 0.4rem auto;
+    border-radius: .125rem;
+    background-color:#669933;
+    color: #FFFFCC;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0.4rem;
+    box-shadow: 0 0.0rem 0.1rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+.setting_add_recomand{
+    display: block;
+    font-size: 0.5rem;
+
+}
+
+
+.iconcoinsstyle{
+    width: 0.6rem;
+    height: 0.6rem;  
+    display: inline-flex;    
+}
+
+.iconplusstyle{
+    width: 1.3rem;
+    height: 1.3rem;  
+    display: inline-flex;    
+}
+
+
+
+
+.tokenpairsettinghide{
+
+    display: none;
+}
+
+
+
+                

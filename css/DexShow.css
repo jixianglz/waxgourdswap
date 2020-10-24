@@ -1,0 +1,229 @@
+.DexDash{
+    padding: 0.2rem ;
+   
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    height: auto;
+    border-radius: 0.5rem;
+    text-align: center ;
+    border-color: #009966;
+    font-size: 0.8rem;
+    transition: 0.3s;
+    
+}
+
+.DexBox{
+    display: block;
+    box-shadow:0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11),0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11); 
+    padding: 0.4rem;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    background-color:  #fff7eb;
+    background-image: linear-gradient(135deg, rgb(226, 253, 215) 0%, #fcfcee 100%);
+
+}
+
+
+.hide{
+    display:none;
+}
+.MyDexstatus{
+    padding: 0.2rem;
+    display: block;
+    height: 6.6rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5rem;
+    
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(135deg, #003366 0%, #CCFF99 140%);
+    color:#FFFFCC;
+    overflow:hidden;
+    height: auto;
+}
+
+.btndexset{
+   border:0rem;
+   outline: none;
+   color: #FFFFCC;
+   background-color: #669933;
+
+
+}
+
+
+.inputdexset{
+    border:none;
+    outline: none;
+    color:#669933;
+    background-color: #FFFFCC;
+    box-shadow: #669933 0px 0.01rem;
+    text-align: center;
+    
+}
+
+
+.dexstatus{
+    padding-top: 0.1rem;
+    padding-left: 0.3rem;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.6rem;
+    overflow:hidden;
+}
+
+.dexstatus-span{
+    padding-left: 0.2rem;
+    color: #f0cc56;
+}
+
+
+.animate {
+    padding-left: 2rem;
+    font-size: 0.5rem;
+    overflow: hidden;
+    color: #000;
+    display: inline-block;
+    white-space: nowrap;
+    animation: 10s wordsLoop linear infinite normal;
+}
+
+@keyframes wordsLoop {
+    0% {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes wordsLoop {
+    0% {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+
+  
+.btn {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    padding: 0 0.7rem;
+    line-height: 1rem;
+    font-size: .675rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0.8rem auto;
+    border-radius: .525rem;
+    border: 2px solid #336666;
+    background-color: #336666;
+    color: #FFFFCC;
+    text-decoration: none;
+    -webkit-transition: color .125s ease;
+    transition: color .125s ease;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0,0,0,0.5);
+  }
+  .btn:before {
+    background-color: #FFFFFF;
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transition: -webkit-transform .25s ease;
+    transition: -webkit-transform .25s ease;
+    transition: transform .25s ease;
+    transition: transform .25s ease, -webkit-transform .25s ease;
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    will-change: transform;
+    z-index: 0;
+  }
+  .btn span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+  .btn:hover, .btn:active, .btn:focus {
+    color: #339933;
+    border-color: #339933;
+  }
+  .btn:hover:before, .btn:active:before, .btn:focus:before {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+
+
+.Dex_sel_style{
+
+    display:inline-block ;
+   
+    width: 65%; 
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.1rem;
+    margin: auto;
+ 
+}
+    
+    
+.inpairslect{
+    
+    display: inline-flex;
+    margin: auto;
+
+}
+
+.mydexloading{
+
+    display: block;
+    margin: 5rem auto;
+    height: 2rem;
+    color: #339933;
+}
+
+.DexContainer{
+
+    height:auto;
+    margin: 0.1rem auto;
+   
+    }

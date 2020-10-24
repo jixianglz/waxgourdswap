@@ -1,0 +1,203 @@
+html{
+    font-size:20px;
+}
+
+.background{
+
+    height: auto;
+    background-color: #FFFFCC;
+    padding-top: 0.4rem;
+    margin: auto;
+    font-size: 0.6rem;
+    padding-top: 0.1rem;
+    width: 100%;
+    color: #336600;
+    font-size: 0.8rem;
+    font-family:"Georgia";
+}
+
+
+@media only screen and (min-width: 401px){
+    html {  
+        font-size: 25px !important;
+    }
+
+
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important; 
+    }
+    .background{
+
+        height: auto;
+        background-color: #FFFFCC;
+        padding-top: 0.4rem;
+        margin: auto;
+        font-size: 0.6rem;
+        padding-top: 0.1rem;
+        width: 18rem;
+        color: #336600;
+        font-size: 1rem;
+        font-family:"Georgia";
+    }
+
+    
+}
+
+
+
+
+.footer{
+
+    height: 8rem;
+    
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+    
+
+    background: url(../../images/token/wg_footer.png) no-repeat right bottom ;
+        
+    background-color: #FFFFCC;
+    background-size: 5rem;
+    
+    
+
+ 
+}
+
+
+.footer-info{
+    font-size: 0.5rem;
+    display: block;  
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+    
+}
+.footer-span{
+
+    color: #000000;
+    text-align: left;
+}
+
+.footer-contact{
+
+    text-align: left;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+#copyTarget{
+    display: inline-block;
+    font-size: 0.5rem;
+    vertical-align: middle;
+    padding: 0.2rem;
+}
+
+
+.header{
+  
+    display: inline-flex;
+    width: 95%;
+    height: 1.5rem;
+    margin:left;
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    box-shadow: 0 0.2rem 5px 0 rgba(0,0,0,0.1);
+    
+}
+
+.header #header-logo{
+    
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url(../../images/waxgourd.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.header #header-name{
+
+    display: inline-flex;
+    font-size: 0.7rem;
+    padding-top: 0.2rem;
+}
+
+
+
+.dropbtn {
+    background-color: #FFFFCC;
+    color: rgb(0, 0, 0);
+  
+    font-size: 0.7rem;
+    text-align: left;
+    border: none;
+    cursor: pointer;      
+}
+.dropdown:hover .dropbtn {
+    background-color: #FFFFCC;
+}
+
+
+
+.dropdown {
+ 
+    display: inline-block;
+    font-size: 0.6rem;
+    padding-top: 0.1rem;
+    margin-inline-start: auto;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#FFFFCC;
+
+    box-shadow: 0.5rem 0.5rem 0.5rem 0rem rgba(0,0,0,0.2);
+    font-size: 0.6rem;
+    color: #336600;
+    text-align: center;
+    width: 5rem;
+    margin-inline-start: -4rem;
+    
+    
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.headerlink {
+    display: block;
+}
+
+
+
+.headerlink:link{color:#336600;}      /* 未访问链接*/
+.headerlink:visited {color:#336600;}  /* 已访问链接 */
+.headerlink:hover {color:#33CC33;}  /* 鼠标移动到链接上 */
+.headerlink:active {color:#336600;}
