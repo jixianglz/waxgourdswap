@@ -6,3 +6,10 @@
 
 #Check for the Beta BlockChain Contract: ContractDUj8gGn9Jr7Yd66Cpb7Hjfqw8m8okdCJe4UajxRHa8VB
 #check for the Beta Version  :    http://waxgourdfinance.com/
+
+
+# 招募冬瓜合约开发者 
+
+·合于治理方案的开发
+
+
