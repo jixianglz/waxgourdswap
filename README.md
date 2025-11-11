@@ -8,8 +8,3 @@
 #check for the Beta Version  :    http://waxgourdfinance.com/
 
 
-# 招募冬瓜合约开发者 
-
-·合于治理方案的开发
-
-
